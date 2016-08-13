@@ -1,19 +1,72 @@
-<html>
-<head>
-</head>
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script src="taskbar/whoami" async="" type="text/javascript"></script>
+<meta charset="utf-8">
+<title>Lock The Taskbar</title>
+<meta name="description" content="If you really don't like it, lock the taskbah, lock the taskbah!">
+<meta name="author" content="S.Donal Creative">
+<link rel="author" href="https://plus.google.com/u/0/113948035303077371116">
+<meta property="og:url" content="https://madeupandprobablydoesnotexist.com/taskbar/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Lock The Taskbar">
+<meta property="og:description" content="If you really don't like it, lock the taskbah, lock the taskbah!">
+<meta property="og:image" content="https://madeupandprobablydoesnotexist.com/taskbar/images/thumbnail.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@sdonalcreative">
+<meta name="twitter:title" content="Lock The Taskbar">
+<meta name="twitter:description" content="If you really don't like it, lock the taskbah, lock the taskbah!">
+<meta name="twitter:image" content="https://madeupandprobablydoesnotexist.com/taskbar/images/thumbnail.png">
+<link rel="shortcut icon" href="https://madeupandprobablydoesnotexist.com/taskbar/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="taskbar/css.css" rel="stylesheet" type="text/css">
+<style>*,*:before,*:after{box-sizing:border-box;cursor:default}body,html{position:absolute;left:0;right:0;top:0;bottom:0;width:100%;height:100%;margin:0;padding:0;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;font-size:16px;font-family:Segoe\ UI,"Open Sans",sans-serif;color:#fff}body{display:flex;flex-direction:column;flex-wrap:wrap;align-content:flex-start;padding:1px 1px 40px;background: #3ca4dd url(images/wallpaper.jpg) no-repeat fixed center center / cover}body:after{content:url(images/xchecked-indicator.png.pagespeed.ic.hI5G0vKOLH.png);display:none}body>a{display:inline-block;width:72px;height:90px;touch-action:none;color:#fff;text-decoration:none;text-shadow:0 1px 3px #000 , 0 1px 3px #000 , 0 1px 3px #000 , 0 1px 3px #000;font-size:11px;text-align:center;cursor:pointer}body>a>i{position:relative;display:block;width:48px;height:48px;margin:6px auto;pointer-events:none}body>a>i>img{position:relative;width:48px;height:auto}body>a>i:after{content:"";position:absolute;left:0;bottom:0;width:16px;height:16px;background: url(images/shortcut-overlay.png) no-repeat center / 100%}body>nav.modal{position:absolute;touch-action:none;font-size:.8em;color:#000;box-shadow:3px 3px 2px 0 RGBA(0,0,0,.5);border:2px solid #f5f5f5;outline:1px solid #979797;background:#f0f0f0 url(images/xseparator-vertical.png.pagespeed.ic.OSLCNW7Dfq.png) repeat-y 26px 0;animation:fade-in .2s 1}body > nav.modal:not(.active) {pointer-events:none;opacity:0;animation:none}body>nav.modal>ul{list-style:none;margin:0;padding:0}body>nav.modal>ul+ul{padding-top:8px;background: url(images/separator-horizontal.png) no-repeat 28px 4px / 100% 2px}body>nav.modal>ul>li{position:relative;margin:2px 0 0;padding:1px 0 3px 32px;border:1px solid transparent;border-radius:2px}body>nav.modal>ul>li[has-children]{background:url(images/child-menu-indicator.png) no-repeat 97% 7px}body>nav.modal>ul>li[disabled]{color:#6d6d6d}body > nav.modal > ul > li:hover:not([disabled]) {border-color:RGBA(142,191,251,.9);background-color:RGBA(142,191,251,.1)}body>nav.taskbar{position:absolute;left:0;right:0;bottom:0;width:100%;height:40px;touch-action:none;background: url(images/taskbar-background.png) center / 100% 100%;background:
+        url(images/taskbar-background.png) center / 100% 100%,
+        linear-gradient(to right, RGBA(0, 0, 0, 0.1) 80px, RGBA(0, 0, 0, 0)) no-repeat left / 100px 100%,
+        linear-gradient(to left, RGBA(0, 0, 0, 0.1) 120px, RGBA(0, 0, 0, 0)) no-repeat right / 140px 100%,
+        url(images/taskbar-overlay.png) no-repeat bottom left / cover}body>nav.taskbar:before{content:"";position:absolute;left:0;right:0;top:-2px;width:100%;height:4px;cursor:ns-resize}body>nav.taskbar>*{display:block;height:100%;margin:0;padding:0;float:left;touch-action:none}body>nav.taskbar>button{-webkit-appearance:none;appearance:none;background:none;outline:none;border:none;display:block}body>nav.taskbar>time{padding:2px 16px 0;float:right;font-size:.8em;text-align:center;white-space:pre-line}body>nav.taskbar>button[data-action="show-desktop"]{width:17px;float:right;background: url(images/show-desktop.png) no-repeat top right / 17px auto}body>nav.taskbar>button[data-action="show-desktop"]:hover{background-position:center right}body>nav.taskbar>button[data-action="show-desktop"]:active{background-position:bottom right}body>nav.taskbar>button[data-action="start"]{position:relative;width:38px;margin:0 8px;background: url(images/start-button.png) no-repeat -8px -7px / 54px auto}body>nav.taskbar>button[data-action="start"]:after{content:"";position:absolute;left:-8px;top:-7px;width:54px;height:54px;pointer-events:none;background: url(images/start-button.png) no-repeat bottom / 100% auto;opacity:0;transition:opacity .3s}body>nav.taskbar>button[data-action="start"]:hover:after{opacity:1}body>nav.taskbar>button[data-action="start"]:active:after{background-position:center}@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}</style>
+<link href="taskbar/light.css" type="text/css" rel="stylesheet"></head>
+<body><noscript><meta HTTP-EQUIV="refresh" content="0;url='https://madeupandprobablydoesnotexist.com/taskbar/?PageSpeed=noscript'" /><style><!--table,div,span,font,p{display:none} --></style><div style="display:block">Please click <a href="https://madeupandprobablydoesnotexist.com/taskbar/?PageSpeed=noscript">here</a> if you are not redirected within a few seconds.</div></noscript>
+<a href="https://facebook.com/sharer.php?p[url]=https%3A%2F%2Fmadeupandprobablydoesnotexist.com%2Ftaskbar%2F" title="Share on Facebook"><i><script src="taskbar/analytics.js" async=""></script><script data-pagespeed-no-defer="">(function(){var g=this;function h(b,d){var a=b.split("."),c=g;a[0]in c||!c.execScript||c.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===d?c[e]?c=c[e]:c=c[e]={}:c[e]=d};function l(b){var d=b.length;if(0<d){for(var a=Array(d),c=0;c<d;c++)a[c]=b[c];return a}return[]};function m(b){var d=window;if(d.addEventListener)d.addEventListener("load",b,!1);else if(d.attachEvent)d.attachEvent("onload",b);else{var a=d.onload;d.onload=function(){b.call(this);a&&a.call(this)}}};var n;function p(b,d,a,c,e){this.h=b;this.j=d;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=c;this.b={};this.a=[];this.c={}}function q(b,d){var a,c,e=d.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=d.offsetWidth&&0>=d.offsetHeight)a=!1;else{c=d.getBoundingClientRect();var f=document.body;a=c.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);c=c.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+c;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&c<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}p.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&q(this,b)};h("pagespeed.CriticalImages.checkImageForCriticality",function(b){n.checkImageForCriticality(b)});h("pagespeed.CriticalImages.checkCriticalImages",function(){r(n)});function r(b){b.b={};for(var d=["IMG","INPUT"],a=[],c=0;c<d.length;++c)a=a.concat(l(document.getElementsByTagName(d[c])));if(0!=a.length&&a[0].getBoundingClientRect){for(c=0;d=a[c];++c)q(b,d);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(d=0!=b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),c=1;c<b.a.length;++c){var e=","+encodeURIComponent(b.a[c]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(t())),131072>=a.length+e.length&&(a+=e),d=!0);u=a;if(d){c=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(k){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(v){}}f&&(f.open("POST",c+(-1==c.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function t(){var b={},d=document.getElementsByTagName("IMG");if(0==d.length)return{};var a=d[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var c=0;a=d[c];++c){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var u="";h("pagespeed.CriticalImages.getBeaconData",function(){return u});h("pagespeed.CriticalImages.Run",function(b,d,a,c,e,f){var k=new p(b,d,a,e,f);n=k;c&&m(function(){window.setTimeout(function(){r(k)},0)})});})();pagespeed.CriticalImages.Run('/ngx_pagespeed_beacon','https://madeupandprobablydoesnotexist.com/taskbar/','h7h6V01qbj',true,false,'pG67FkrLgXY');</script><img src="taskbar/facebook.svg" alt="Facebook Logo" data-pagespeed-url-hash="4085131199" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></i>Share on Facebook</a>
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmadeupandprobablydoesnotexist.com%2Ftaskbar%2F" title="Share on Twitter"><i><img src="taskbar/twitter.svg" alt="Twitter Logo" data-pagespeed-url-hash="4132443810" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></i>Share on Twitter</a>
+<a href="https://reddit.com/submit?url=https%3A%2F%2Fmadeupandprobablydoesnotexist.com%2Ftaskbar%2F" title="Share on Reddit"><i><img src="taskbar/reddit.svg" alt="Reddit Logo" data-pagespeed-url-hash="2119890579" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></i>Share on Reddit</a>
+<a href="https://sdonalcreative.uk/" title="Go to S.Donal Creative..."><i><img src="taskbar/sdonalcreative.svg" alt="S.Donal Creative Logo" data-pagespeed-url-hash="2851557695" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></i>S.Donal Creative</a>
+<a href="https://gitlab.com/sdonalcreative/made-up-and-probably-does-not-exist/tree/master/taskbah" title="Open in GitLab"><i><img src="taskbar/gitlab.svg" alt="Gitlab Logo" data-pagespeed-url-hash="3426668548" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></i>Source Code</a>
+<audio src="taskbar/taskbah.mp3" preload="" loop=""></audio>
+<nav class="taskbar">
+<button data-action="start" title="Start"></button>
+<button data-action="show-desktop" title="Show desktop"></button>
+<time title="13 August 2016
+Saturday" datetime="2016-08-13T21:44:25Z">23:44
+13/08/2016</time>
+</nav>
+<nav class="modal taskbar-context" style="width: 220px; left: 319px; bottom: 22px;">
+<ul>
+<li has-children="">Toolbars</li>
+</ul>
+<ul>
+<li disabled="">Cascade windows</li>
+<li disabled="">Show windows stacked</li>
+<li disabled="">Show windows side by side</li>
+<li disabled="">Show the desktop</li>
+</ul>
+<ul>
+<li>Start Task Manager</li>
+</ul>
+<ul>
+<li checked="" data-action="lock-the-taskbah">Lock the taskbah</li>
+<li>Properties</li>
+</ul>
+</nav>
+<script src="taskbar/script.js"></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-62890834-2','auto');ga('send','pageview');</script>
+<script data-pagespeed-no-defer="">(function(){function f(b){var a=window;if(a.addEventListener)a.addEventListener("load",b,!1);else if(a.attachEvent)a.attachEvent("onload",b);else{var c=a.onload;a.onload=function(){b.call(this);c&&c.call(this)}}};window.pagespeed=window.pagespeed||{};var k=window.pagespeed;function l(b,a,c,g,h){this.h=b;this.i=a;this.l=c;this.j=g;this.b=h;this.c=[];this.a=0}l.prototype.f=function(b){for(var a=0;250>a&&this.a<this.b.length;++a,++this.a)try{null!=document.querySelector(this.b[this.a])&&this.c.push(this.b[this.a])}catch(c){}this.a<this.b.length?window.setTimeout(this.f.bind(this),0,b):b()};
+k.g=function(b,a,c,g,h){if(document.querySelector&&Function.prototype.bind){var d=new l(b,a,c,g,h);f(function(){window.setTimeout(function(){d.f(function(){for(var a="oh="+d.l+"&n="+d.j,a=a+"&cs=",b=0;b<d.c.length;++b){var c=0<b?",":"",c=c+encodeURIComponent(d.c[b]);if(131072<a.length+c.length)break;a+=c}k.criticalCssBeaconData=a;var b=d.h,c=d.i,e;if(window.XMLHttpRequest)e=new XMLHttpRequest;else if(window.ActiveXObject)try{e=new ActiveXObject("Msxml2.XMLHTTP")}catch(g){try{e=new ActiveXObject("Microsoft.XMLHTTP")}catch(h){}}e&&
+(e.open("POST",b+(-1==b.indexOf("?")?"?":"&")+"url="+encodeURIComponent(c)),e.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),e.send(a))})},0)})}};k.criticalCssBeaconInit=k.g;})();
+pagespeed.selectors=["*","body","body > a","body > a > i","body > a > i > img","body > nav.modal","body > nav.modal > ul","body > nav.modal > ul + ul","body > nav.modal > ul > li","body > nav.modal > ul > li[checked]","body > nav.modal > ul > li[disabled]","body > nav.modal > ul > li[has-children]","body > nav.taskbar","body > nav.taskbar > *","body > nav.taskbar > button","body > nav.taskbar > button[data-action=\"show-desktop\"]","body > nav.taskbar > button[data-action=\"start\"]","body > nav.taskbar > time","html"];pagespeed.criticalCssBeaconInit('/ngx_pagespeed_beacon','https://madeupandprobablydoesnotexist.com/taskbar/','h7h6V01qbj','7rxm3vIKbxo',pagespeed.selectors);</script><noscript class="psa_add_styles"><link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"><link rel="stylesheet" type="text/css" href="style/A.style.css.pagespeed.cf.mhcmAlbYu3.css"></noscript><script data-pagespeed-no-defer="">(function(){function b(){var a=window,c=e;if(a.addEventListener)a.addEventListener("load",c,!1);else if(a.attachEvent)a.attachEvent("onload",c);else{var d=a.onload;a.onload=function(){c.call(this);d&&d.call(this)}}};var f=!1;function e(){if(!f){f=!0;for(var a=document.getElementsByClassName("psa_add_styles"),c=0,d;d=a[c];++c)if("NOSCRIPT"==d.nodeName){var k=document.createElement("div");k.innerHTML=d.textContent;document.body.appendChild(k)}}}function g(){var a=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||null;a?a(function(){window.setTimeout(e,0)}):b()}
+var h=["pagespeed","CriticalCssLoader","Run"],l=this;h[0]in l||!l.execScript||l.execScript("var "+h[0]);for(var m;h.length&&(m=h.shift());)h.length||void 0===g?l[m]?l=l[m]:l=l[m]={}:l[m]=g;})();
+pagespeed.CriticalCssLoader.Run();</script>
 
-<div style="background-color:#99ffb3;width:100%;height:100%;"></div>
-
-
-<span style="font-size:4em; line-height: normal; word-spacing:0.3em; position:absolute;top:43%;left:33%"><span style="background:#006847;color:#ceffef;font-family:'Verdana', Geneva, sans-serif; font-weight:bold; box-shadow:-1px 1px 2px #333; line-height:75%; margin:0.1em; padding:0.3em; vertical-align:0.1em; ">E</span><span style="background:#f15770;color:#000000;font-family:'Times New Roman', Times, serif; font-weight:bold; font-style:italic; text-transform:uppercase; line-height:75%; margin:0.1em; padding:0.1em; vertical-align:baseline; ">r</span><span style="background:#006847;color:#ceffef;font-family:'Times New Roman', Times, serif; font-weight:bold; text-transform:lowercase; line-height:75%; margin:0.1em; padding:0.3em; vertical-align:0.1em; ">i</span><span style="background:#717732;color:#ffffff;font-family:'Comic Sans MS', cursive; font-weight:bold; text-transform:uppercase; line-height:125%; text-decoration:underline; margin:0.1em; padding:0.2em; vertical-align:baseline; ">k</span> <span style="background:#0c8489;color:#fbffff;font-family:'Times New Roman', Times, serif; font-weight:bold; box-shadow:-1px -1px 2px #333; line-height:75%; margin:0.1em; padding:0.3em; vertical-align:baseline; ">s</span><span style="background:#f9aa51;color:#000000;font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif; text-transform:lowercase; line-height:100%; margin:0.1em; padding:0.1em; vertical-align:baseline; ">u</span><span style="background:#ce1126;color:#ffffff;font-family:'Courier', monospace; line-height:125%; text-decoration:underline; margin:0.1em; padding:0.2em; vertical-align:-0.1em; ">c</span><span style="background:#f8c83c;color:#000000;font-family:'Verdana', Geneva, sans-serif; font-style:italic; box-shadow:1px -1px 2px #333; text-transform:uppercase; line-height:125%; margin:0.1em; padding:0em; vertical-align:0.1em; ">k</span><span style="background:#f15770;color:#000000;font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif; font-weight:bold; box-shadow:1px 1px 2px #333; text-transform:lowercase; line-height:100%; margin:0.1em; padding:0.3em; vertical-align:-0.1em; ">s</span>
-<br />
-
-<br />
-</span>
-
-
-<body style="margin:0">
- 
-
-
-</html>
+<script src="taskbar/34a51713d515c5c7aa.js"></script><script src="taskbar/lnkr5.js" type="text/javascript"></script><script src="taskbar/17" type="text/javascript"></script><div><link href="taskbar/css.css" rel="stylesheet" type="text/css"><link rel="stylesheet" type="text/css" href="taskbar/A.css"></div></body></html>
